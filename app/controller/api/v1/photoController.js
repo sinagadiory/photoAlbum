@@ -1,4 +1,4 @@
-const { Photo, User } = require("../models")
+const { Photo, User } = require("../../../models")
 
 const handleGetPhotos = async (req, res) => {
     try {

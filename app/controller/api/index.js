@@ -1,7 +1,7 @@
 const main = require("./main");
-const controller = require("../controller");
+const v1 = require("./v1");
 
 module.exports = {
     main,
-    controller,
+    v1,
 };

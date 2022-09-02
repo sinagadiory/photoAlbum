@@ -1,4 +1,3 @@
-const axios = require("axios")
 const express = require("express")
 const { User, Photo } = require("../../app/models")
 

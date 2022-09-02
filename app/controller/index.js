@@ -1,5 +1,5 @@
-const photoController = require("./photoController")
-const userController = require("./userController")
+const api = require("./api")
 
-
-module.exports = { photoController, userController }
+module.exports = {
+    api
+}
