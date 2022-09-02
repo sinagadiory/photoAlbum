@@ -1,0 +1,11 @@
+<div class="row">
+    <% response.forEach(foto => { %>
+      <div class="card  mb-2 col-lg-3">
+        <img src="<%= foto.image_url  %>" height="160px" class="card-img-top" alt="image">
+        <div class="card-body">
+          <h5 class="card-title"><%= foto.title %> </h5>
+          <p class="card-text"><%=  foto.caption %> </p>
+        </div>
+    </div>
+    <% }) %>
+</div>

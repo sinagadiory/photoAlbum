@@ -1,0 +1,33 @@
+GET http://localhost:8000/users
+
+###
+PUT http://localhost:8000/update/2
+Content-Type: application/json
+
+{
+    "title":"Foto Pertama",
+    "caption":"Foto Pertama Update",
+    "image_url":"https://res.cloudinary.com/dt3pzvmfg/image/upload/v1658573452/x1bbffnq1cold8srit8p.jpg",
+    "userId":"2"
+}
+
+###
+POST  http://localhost:8000/adduser
+Content-Type: application/json
+
+{
+    "username":"sinaga_pribadi",
+    "email":"diorypribadi2@gmail.com"
+}
+
+###
+GET http://localhost:8000/photo/1
+
+###
+PUT   http://localhost:8000/updateuser/3
+Content-Type: application/json
+
+{
+    "username":"diory_pribadisinaga",
+    "email":"diorypribadi3@gmail.com"
+}
