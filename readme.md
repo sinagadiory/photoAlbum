@@ -1,7 +1,8 @@
 ### How To Run
-* npm install kemudian npm start. **Server berjalan pada port 8000**
+* npm install terlebih dahulu. Kemudian,
 * Ganti **password** yang ada di folder `config/config.json`
-* Sebelum menggunakan terlebih dahulu create database,migrate dan seed. Ketik `sequelize db:create` setelah itu `sequelize db:migrate` terakhir `sequelize db:seed:all`
+* Sebelum menggunakan terlebih dahulu create database,migrate dan seed. Ketik `sequelize db:create` setelah itu `sequelize db:migrate` terakhir `sequelize db:seed:all`.
+* Terakhir npm start. **Server berjalan pada port 8000**
 * Sudah disediakan tampilan(frontend) untuk menggunakan, Sehingga tidak diperlukan `postman` untuk menjalankan aplikasi.
 * accessToken tidak perlu diinputkan lagi, karena sudah tertanam sebagai `cookie` ketika sudah login. Informasi dari cookie menjadi hal yang penting pada aplikasi web ini.
 * registrasi terlebih dahulu untuk membuat akun baru
