@@ -6,6 +6,7 @@
 * accessToken tidak perlu diinputkan lagi, karena sudah tertanam sebagai `cookie` ketika sudah login. Informasi dari cookie menjadi hal yang penting pada aplikasi web ini.
 * registrasi terlebih dahulu untuk membuat akun baru
 * Penjelasan lengkap ada dibagian `penjelasan`
+* Aplikasi fotoAlbum ini juga sudah di deploy ke heroku, dapat dikunjungi link berikut <a href="https://photoalbumusers.herokuapp.com/">fotoAlbum<a>
 
 #### Directory Structure
 ```bash
