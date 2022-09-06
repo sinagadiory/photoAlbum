@@ -14,7 +14,7 @@ module.exports = {
     */
     await queryInterface.bulkInsert('Photos', [{
       title: "Foto Diory",
-      caption: "Foto Aja",
+      caption: "Foto Profil Diory",
       image_url: "https://res.cloudinary.com/dt3pzvmfg/image/upload/v1658573452/x1bbffnq1cold8srit8p.jpg",
       userId: 1,
       createdAt: new Date(),

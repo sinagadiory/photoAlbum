@@ -6,8 +6,13 @@
 <body>
     <div class="container">
         <div class="row">
+            <h3 class="pt-2 "><%= user.username  %> </h3>
+            <div class="d-flex">
+                <a class="btn btn-primary mx-2" href="/photouser">My Foto</a>
+                <a href="/listphotos" class="btn btn-success mx-2">List Foto</a>
+            </div>
             <div class="form py-3" style="width: 50%;margin-left: auto;margin-right: auto;">
-                <h1>Add Photo</h1>
+                <h2>Add Photo</h2>
                 <%- include("../partials/formaddPhoto.ejs")  %> 
             </div>
         </div>

@@ -1,0 +1,10 @@
+<form action="/update/<%=id%>"  method="post" enctype="multipart/form-data" >
+    <label class="mb-2" for="title">Title</label>
+    <input value="<%=response.title  %> " placeholder="title Foto" type="text" name="title" id="title" class="form-control">
+    <label class="mb-2" for="caption">Caption</label>
+    <input value="<%= response.caption %>" placeholder="caption Foto" type="text" name="caption" id="caption" class="form-control">
+    <input  value="<%=user.userID  %> " readonly type="hidden" name="userId" id="userId" class="form-control">
+    <label class="mb-2" for="image_url">Image</label>
+    <input type="file"  name="image_url" id="image_url" class="form-control" required>
+    <button type="submit" class="btn btn-primary mt-2 form-control" >update</button>
+</form>

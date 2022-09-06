@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("../partials/head.ejs")  %> 
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <a href="/listphotos" class="btn mt-2 btn-primary">list Photo</a>
+                <a href="/photouser" class="btn mt-2 btn-success">My Photo</a>
+                <div class="form py-3" style="margin-left: auto;margin-right: auto;">
+                    <h2>Update Photo</h2>
+                    <%- include("../partials/formUpdatePhoto.ejs")  %> 
+                </div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+                <img width="70%" class="rounded-circle mx-5" src="<%= response.image_url  %> " alt="image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

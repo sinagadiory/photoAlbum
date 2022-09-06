@@ -4,17 +4,19 @@
     <%- include("../partials/head.ejs")  %> 
 </head>
 <body>
-    <div class="container my-3">
-        <h4>Selamat Datang <%=user.username  %> </h4>
+    <div class="container">
+        <h4 class="mt-2">Selamat Datang <%= user.username  %> </h4>
         <div class="d-flex">
-            <a class="btn btn-primary mx-2" href="/photouser">My Foto</a>
+            <a class="btn btn-primary mx-2" href="/listphotos">List Photo</a>
             <a href="/addphoto" class="btn btn-success mx-2">Add My Photo</a>
             <form action="/logout" method="post">
                 <button class="btn btn-outline-danger">Logout</button>
             </form>
         </div>
-        <h2 class="text-center mt-5">List Foto</h2>
-        <%- include("../partials/cardphotos.ejs")  %> 
+        <div class="row py-2">
+            <h2 class="text-center mb-4">My Photo</h2>
+            <%- include("../partials/listPhotoUser.ejs")  %> 
+        </div>
     </div>
 </body>
 </html>
